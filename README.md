@@ -12,7 +12,8 @@ Sử dụng [pip](https://pip.pypa.io/en/stable/) để cài đặt.
 ```bash
 pip install numpy pandas matplotlib sklearn speech_recognition 
 ```
-hoặc pip3 nếu có cả 2 phiên bản python trong máy tính
+hoặc pip3 nếu có cả 2 phiên bản python trong máy tính.
+
 Riêng với pyaudio
 
 <b>Windows</b>
