@@ -1,0 +1,501 @@
+sentence,label
+mở chrome,0
+mở notepad,0
+đóng chrome,3
+đóng terminal,3
+bạn hãy mở chrome cho tôi,0
+mày đóng chrome đi,3
+mở pinta đi,0
+đóng pain lại ngay,3
+hãy mở ứng dụng firefox lên,0
+đừng để tôi thấy facebook nữa,3
+tôi muốn thấy instagram ngay,0
+muốn xem netflix quá,0
+mở spotify nào,0
+bật netflix lên đi,0
+tôi muốn dùng dropbox,0
+tôi muốn mở instagram,0
+đóng lại đi messenger,3
+mở ra đi facebook,0
+tắt netflix đi,3
+bật facebook lên,0
+tắt facebook đi cho tôi,3
+mở facebook ,0
+mở instagram,0
+mở dropbox,0
+mở google,0
+mở messenger,0
+đóng firefox,3
+đóng chrome,3
+mở ra đi terminal,0
+bật terminal,0
+khởi động terminal,0
+khởi động firefox,0
+khởi động chrome,0
+khởi động pinta,0
+bật pinta,0
+bật chrome,0
+bật firefox,0
+bật terminal,0
+mở dropbox lên đi,0
+mở facebook lên đi,0
+mở instagram lên đi,0
+mở google lên đi,0
+đóng chrome lại ngay,3
+tắt chrome lại nhé,3
+tắt firefox lại nhé,3
+tắt pinta đi nhé,3
+tắt terminal đi nhé,3
+tắt chrome cho tôi,3
+tắt firefox cho tôi,3
+tắt pinta cho tôi,3
+ngắt pinta ngay,3
+ngắt terminal ngay,3
+mở facebook cho tôi,0
+hãy mở instagram ngay,0
+hãy mở google ngay,0
+hãy mở dropbox ngay,0
+hãy mở terminal ngay,0
+hãy mở chrome ngay,0
+hãy mở firefox ngay,0
+tôi muốn chrome được bật,0
+tôi muốn firefox được bật,0
+tôi muốn terminal được bật,0
+tôi muốn facebook được bật,0
+tôi muốn instagram được bật,0
+tôi muốn google được bật,0
+tôi muốn dropbox được bật,0
+tôi muốn chrome được đóng,3
+tôi muốn firefox được đóng,3
+tôi muốn terminal được đóng,3
+tôi muốn chrome được bật,0
+tôi muốn firefox được bật,0
+tôi muốn terminal được bật,0
+tôi muốn facebook được bật,0
+tôi muốn instagram được bật,0
+tôi muốn google được bật,0
+tôi muốn dropbox được bật,0
+tôi muốn chrome được tắt,3
+tôi muốn firefox được tắt,3
+tôi muốn terminal được tắt,3
+tôi muốn pinta được tắt,3
+tôi muốn pinta được đóng,3
+hãy mở netflix ngay,0
+tôi muốn netflix được bật,0
+tôi muốn netflix được mở,0
+đừng để tôi thấy chrome nữa,3
+đừng để tôi thấy firefox nữa,3
+đừng để tôi thấy pinta nữa,3
+đừng để tôi thấy terminal nữa,3
+tôi muốn sử dụng facebook,0
+tôi muốn sử dụng netflix,0
+tôi muốn sử dụng google,0
+tôi muốn sử dụng terminal,0
+tôi muốn sử dụng pinta,0
+tôi muốn sở dụng chrome,0
+tôi muốn sử dụng firefox,0
+mở netflix lên đi,0
+bật netflix đi,0
+bật netflix lên đi,0
+mở netflix,0
+tôi muốn sử dụng dropbox,0
+facebook ơi mở ra,0
+google ơi mở ra,0
+firefox ơi mở ra,0
+pinta ơi mở ra,0
+terminal ơi mở ra,0
+chrome ơi mở ra,0
+hãy cho tôi dùng facebook,0
+hãy cho tôi dùng google,0
+hãy cho tôi dùng netflix,0
+netflix ơi mở ra,0
+dropbox ơi mở ra,0
+youtube ơi mở ra,0
+mở youtube,0
+bật youtube lên,0
+khởi động youtube cho tôi,0
+hãy cho tôi dùng youtube,0
+cho tôi dùng pinta,0
+cho tôi dùng chrome,0
+cho tôi dùng firefox,0
+hãy cho tôi dùng chrome,0
+hãy cho tôi dùng firefox,0
+hãy cho tôi dùng pinta,0
+pinta mở ra,0
+firefox chạy đi,0
+chrome chạy đi,0
+pinta chạy đi,0
+terminal chạy đi,0
+tôi muốn thấy facebook,0
+tôi muốn thấy youtube,0
+tôi muốn thấy dropbox,0
+tôi muốn thấy chrome,0
+tôi muốn thấy firefox,0
+tôi muốn thấy terminal,0
+tôi muốn thấy facebook,0
+tôi không muốn thấy firefox,3
+tôi không muốn thấy chrome,3
+tôi không muốn thấy terminal,3
+tôi không muốn thấy pinta,3
+không muốn thấy firefox nữa,3
+không muốn thấy chrome nữa,3
+không muốn thấy pinta nữa,3
+không muốn thấy terminal nữa,3
+tôi không thích terminal,3
+tôi không thích chrome,3
+tôi không thích firefox,3
+tôi không thích pinta,3
+tôi chán chrome rồi,3
+tôi chán pinta rồi,3
+tôi chán facebook rồi,3
+tôi chán netflix rồi,3
+tôi chán youtube rồi,3
+tôi không muốn thấy facebook nữa,3
+tôi không muốn thấy youtube nữa,3
+tôi không muốn thấy netflix nữa,3
+chrome tắt ngay đi,3
+firefox tắt ngay đi,3
+pinta tắt ngay đi,3
+firefox ơi tắt đi,3
+chrome ơi tắt đi,3
+terminal tắt đi,3
+pinta ơi tắt đi,3
+chrome ơi đóng lại,3
+firefox ơi đóng lại,3
+pinta ơi đóng lại ngay,3
+terminal đóng lại,3
+ngắt terminal lại đi,3
+ngắt pinta nhé,3
+ngắt chrome nhé,3
+ngắt firefox lại đi,3
+đóng chrome lại cho tôi,3
+tắt chrome cho tôi nhé,3
+đóng firefox giúp tôi,3
+tắt firefox giúp tôi,3
+đóng terminal lại đi,3
+tắt terminal đi,3
+tắt chrome đi,3
+tắt chrome,3
+tôi không muốn dùng chrome nữa,3
+tôi không muốn thấy chrome nữa,3
+không dùng chrome nữa,3
+không muốn thấy chrome,3
+tôi không dùng chrome nữa,3
+tôi không muốn dùng chrome,3
+tôi không muốn dùng firefox nữa,3
+tôi không muốn thấy firefox nữa,3
+không dùng firefox nữa,3
+không muốn thấy firefox,3
+tôi không dùng firefox nữa,3
+tôi không muốn dùng firefox,3
+tôi không muốn dùng terminal nữa,3
+tôi không muốn thấy terminal nữa,3
+không dùng terminal nữa,3
+không muốn thấy terminal,3
+tôi không dùng terminal nữa,3
+tôi không muốn dùng terminal,3
+tôi không muốn dùng pinta nữa,3
+tôi không muốn thấy pinta nữa,3
+không dùng pinta nữa,3
+không muốn thấy pinta,3
+tôi không dùng pinta nữa,3
+tôi không muốn dùng pinta,3
+đóng ứng dụng firefox,3
+đóng ứng dụng chrome,3
+đóng ứng dụng terminal,3
+đóng ứng dụng pinta,3
+đóng firefox lại ngay nhé,3
+đóng chrome lại ngay,3
+đóng terminal lại ngay nhé,3
+đóng firefox lại ngay,3
+tôi muốn chrome được mở,0
+tôi muốn facebook được mở,0
+tôi muốn netflix được mở,0
+tôi muốn mở netflix,0
+tôi muốn mở facebook,0
+tôi muốn chrome được mở,0
+tôi muốn youtube được bật,0
+tôi muốn spotify được bật,0
+muốn spotify được mở,0
+tôi muốn dropbox được mở,0
+giúp tôi mở facebook,0
+giúp tôi bật facebook,0
+bật facebook cho tao,0
+bật youtube cho tao,0
+giúp tao mở facebook,0
+giúp tao mở youtube,0
+giúp tao mở google,0
+giúp tôi bật firefox,0
+giúp tôi bật pinta,0
+giúp tôi bật terminal,0
+giúp tôi bật chrome,0
+giúp tôi mở facebook nhé,0
+giúp tôi mở instagram nhé,0
+giúp tôi bật instagram nhé,0
+giúp tôi bật youtube nhé,0
+mở chrome cho tôi đi,0
+bật firefox cho tôi đi,0
+mở firefox cho tôi đi,0
+bật chrome cho tôi đi,0
+mở terminal nào,0
+hãy bật pinta nào,0
+bật terminal nào,0
+bật firefox nào,0
+bật facebook nào,0
+bật netflix nào,0
+mở netflix nào,0
+giúp tôi bật chrome nào,0
+giúp tôi bật firefox nào,0
+giúp tôi mở facebook nào,0
+giúp tôi bật youtube nào,0
+giúp tôi bật gmail nào,0
+giúp tôi mở gmail nào,0
+giúp tôi mở netflix nào,0
+giúp tôi bật spotify nào,0
+lướt facebook nào,0
+lướt youtube nào,0
+firefox đâu rồi,0
+chrome đâu rồi,0
+dropbox đâu rồi,0
+facebook đâu rồi,0
+youtube đâu rồi,0
+pinta đâu rồi,0
+netflix đâu rồi,0
+gmail đâu rồi,0
+firefox đâu nhỉ,0
+chrome đâu nhỉ,0
+facebook ở đâu rồi,0
+facebook ở đâu nhỉ,0
+facebook đâu nhỉ,0
+youtube đâu nhỉ,0
+youtube ở đâu rồi,0
+youtube ở đâu nhỉ,0
+firefox đâu nhỉ,0
+firefox ở đâu rồi,0
+firefox ở đâu nhỉ,0
+chrome đâu nhỉ,0
+chrome ở đâu rồi,0
+pinta ở đâu rồi,0
+pinta ở đâu nhỉ,0
+netflix ở đâu rồi nhỉ,0
+firefox ở đâu thế nhỉ,0
+chrome ở đâu thế nhỉ,0
+terminal ở đâu thế nhỉ,0
+facebook ở đâu thế nhỉ,0
+muốn lướt facebook,0
+tôi muốn lướt facebook,0
+muốn vào facebook,0
+tôi muốn vào facebook quá,0
+tôi muốn xem youtube,0
+tôi muốn xem youtube quá,0
+muốn xem youtube quá,0
+cho tôi xem netflix đi,0
+cho tôi xem chrome đi,0
+cho tôi xem firefox đi,0
+cho tôi xem pinta đi,0
+cho tôi dùng firefox,0
+cho tôi dùng terminal,0
+cho tôi dùng chrome,0
+cho tôi dùng dropbox,0
+cho tôi dùng instagram,0
+tôi ghét firefox,3
+tôi ghét chrome,3
+tôi ghét terminal,3
+tôi ghét pinta,3
+giá vàng,1
+giá rau hôm nay,1
+ô tô giá bao nhiêu,1
+tìm cho tôi giá vàng,1
+cho tôi biết giá vàng là bao nhiêu,1
+giá xăng lại lên à,1
+mở công ty,1
+đóng cửa sản xuất,1
+mở công ty,1
+mở cửa hàng sản xuất,1
+mở trang trại,1
+bật đèn,1
+bật tương lai,1
+tắt đèn bật tương lai,1
+lập trình quốc tế,1
+olympic toán học,1
+olympic tin học,1
+tin bão,1
+tin bão số 5,1
+tin bão số 4,1
+tin tức mới nhất,1
+facebook bị phạt,1
+google bị phạt,1
+youtube bị phạt,1
+tin tức,1
+tin bóng đá,1
+kết quả xổ số,1
+điện thoại xiaomi,1
+điện thoại google pixel,1
+ô tô việt nam sản xuất,1
+chuột không dây,1
+bàn phím cơ,1
+giá đất,1
+hà nội,1
+hà nam,1
+thành phố hồ chí minh,1
+máy tính dell,1
+máy tính để bàn,1
+máy tính xách tay,1
+giá nội thất,1
+đóng tiền nhà,1
+điện nước,1
+giá vàng hôm nay thế nào,1
+vàng hôm nay có giảm giá không,1
+chứng khoán hôm nay thế nào,1
+python là gì,1
+facebook là gì,1
+làm sao để sử dụng google,1
+làm sao để sử dụng youtube,1
+sử dụng chuột máy tính như thế nào,1
+ca sĩ Tuấn Tú là ai,1
+ca sĩ Tuấn Hưng là ai,1
+Sơn Tùng mtp là ai ,1
+biến đổi fourier là gì,1
+máy tính hoạt động như thế nào,1
+máy bay hoạt động như thế nào,1
+facebook,1
+google,1
+youtube,1
+netflix,1
+dropbox,1
+facebook là gì,1
+google là gì,1
+youtube là gì,1
+netflix là gì,1
+dropbox là gì,1
+công ty google,1
+công ty facebook,1
+bài hát xe đạp,1
+hợp ân nơi tình yêu kết thúc,1
+màn hình samsung,1
+kinh tế mở cửa,1
+mở cửa khẩu,1
+đóng cửa giao dịch,1
+chính phủ đóng cửa,1
+khởi động năm học mới,1
+facebook vi phạm luật pháp,1
+google vi phạm luật pháp,1
+hãy tìm công thức nấu ăn,1
+bật mí,1
+tắt nắng,1
+thổi tắt nến,1
+sữa milo,1
+thực phẩm đóng hộp,1
+đồ nội thất,1
+mua nhà vincity,1
+mua xe ô tô,1
+bán đồ cũ,1
+thương mại điện tử,1
+bàn phím cơ,1
+bàn phím cơ giả,1
+bàn phím cơ rẻ nhất,1
+facebook lừa đảo,1
+youtube lửa đảo,1
+donald trump,1
+barrack obama,1
+vladiamir putin,1
+liên minh huyền thoại,1
+liên minh nhái liên quân,1
+thực phẩm đóng hộp,1
+thực phẩm đóng gói,1
+facebook đóng cửa,1
+youtube đóng cửa,1
+đóng cửa,1
+đóng tài khoản,1
+firefox đóng cửa,1
+netflix đóng cửa,1
+dropbox đóng cửa,1
+facebook mở nền tảng mới,1
+google mở quảng cáo,1
+youtube mở youtube gamming,1
+facebook mở facebook gamming,1
+thuốc giả,1
+bão,1
+áp thấp nhiệt đới,1
+điện thoại tàu,1
+terminal là gì,1
+firefox là gì,1
+chrome là gì,1
+pinta là gì,1
+đồ ăn nhanh,1
+bến xe gần nhất,1
+nhà hàng gần nhất,1
+trạm xăng gần nhất,1
+trạm xăng đóng cửa,1
+tắt đèn bật ý tưởng,1
+bật lửa,1
+giá bật lửa,1
+bật lửa sang chảnh,1
+đóng gói hàng hóa,1
+báo mới,1
+kết quả xổ số,1
+lô đề,1
+thuốc chữa ung thư,1
+tình yêu là gì,1
+kẹo,1
+pinta,1
+chrome,1
+firefox,1
+terminal,1
+chuột không dây,1
+giá xe ô tô,1
+làm bằng xe máy,1
+camera,1
+đàn bầu là gì,1
+hôm nay tôi buồn quá,2
+kể cho tôi một câu chuyện hài,2
+kể chuyện ngôn tình,2
+nói chuyện với tôi đi,2
+bạn tên là gì,2
+cô ấy thật xinh đẹp,2
+tôi thích cô ấy lắm,2
+mở đầu câu chuyện,2
+nói chuyện với tôi,2
+hôm nay tôi vui,2
+hôm nay tôi được điểm 10,2
+bạn gái bỏ tôi ,2
+bạn gái bỏ tôi rồi,2
+bạn gái đá tôi rồi,2
+bạn gái đá tôi,2
+tôi mất người yêu mất rồi,2
+tên là gì,2
+tôi thích kẹo mút,2
+tôi ghét chuột,2
+tôi ghét đàn ông,2
+tôi ghét yêu,2
+tôi thích có người yêu,2
+tôi thích bạn,2
+tôi yêu bạn,2
+bạn thật thông minh,2
+thông minh ghê nhỉ,2
+yêu tôi nhé,2
+thích tôi nhé,2
+làm người yêu tôi nhé,2
+tâm sự với tôi đi,2
+kể một câu chuyện,2
+kể câu chuyện buồn,2
+kể cho tôi một câu chuyện vui,2
+tôi ghét bạn,2
+tôi ghét ăn mỳ tôm,2
+có người yêu thích nhỉ,2
+buồn quá,2
+vui quá ,2
+buồn quá đi,2
+vui quá đi,2
+thích quá đi,2
+thích quá,2
+tôi thích ăn tôm,2
+tôi thích đọc sách,2
+tôi thích chơi thể thao,2
+tôi thích hà phương,2
+tôi thích con gái,2
+bạn thật là xinh đẹp,2
+xinh thế,2
+đáng yêu thế,2
+yêu nhau nhé,2
+yêu nhau đi,2
