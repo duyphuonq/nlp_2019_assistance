@@ -5,7 +5,7 @@ def api_google(langfrom, langto, text):
 
 def api_chatbot(question):
     import requests
-    response = requests.post('https://pandorabots.com/pandora/talk?botid=cd44746d1e3755a1', data=[('input', question)])
+    response = requests.post('https://pandorabots.com/pandora/talk?botid=cd44746d1e3755a1', data=[('input', question), ('botcust2', 'eca814928ea9d039')])
     return response.text
 
 def chat(vi_question):
