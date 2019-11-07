@@ -20,7 +20,7 @@ def execute(sentence):
     elif result == SEARCH_ACTION:
         print("search action")
         google.google(sentence)
-        return "Tôi đã tìm kiếm kết quả này cho bạn nè!"
+        return "Tôi đã tìm kiếm kết quả '{}' cho bạn nè!".format(sentence)
     elif result == OPEN_ACTION:
         print("open app action")
         app_type, name = open_app(sentence)
