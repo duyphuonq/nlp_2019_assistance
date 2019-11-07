@@ -15,6 +15,8 @@ pip3 install requirements.txt
 
 ## Yêu cầu: python3.6
 
+# Xong, bên dưới là giới thiệu
+
 ## Các thư viện cần cài đặt:
 <h3>Numpy, Pandas, Matplotlib, Sklearn, Speech Recognition, Py Audio</h3>
 
