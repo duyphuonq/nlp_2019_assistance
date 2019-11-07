@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import ttk, Text
 import speech_recognition as sr
 import time
+from src.main.main_execute_controller import execute
 
 #Speech to text
 rec = sr.Recognizer()
@@ -63,6 +64,7 @@ def typeText():
     action.grid_remove()
     voice.configure(state="active")
     if value.get():
+        print(execute(str(value.get())))
         said.configure(text="Bạn vừa nhập: "+value.get())
         said.grid(column=0, row=1, pady=20, columnspan=5)
 
