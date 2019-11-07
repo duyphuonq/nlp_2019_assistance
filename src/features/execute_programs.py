@@ -1,7 +1,10 @@
+import os
+import psutil
+
 
 commands = {
     'firefox': 'firefox',
-    'chrome': 'chrome',
+    'chrome': 'google-chrome',
     'pinta': 'pinta',
     'terminal': 'gnome-terminal'
 }
@@ -20,8 +23,6 @@ def open_program(name):
 
 
 def close_program(name):
-    import os
-    import psutil
     executed = execute_name[name]
     for proc in psutil.process_iter():
         try:
@@ -30,10 +31,10 @@ def close_program(name):
             processID = proc.pid
 
             if executed in processName:
-                print(processName, ' ::: ', processID)
+                # print(processName, ' ::: ', processID)
                 os.system("kill {}".format(processID))
         except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
             pass
 
 
-close_program("terminal")
+# close_program("terminal")

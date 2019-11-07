@@ -5,3 +5,6 @@ sklearn
 SpeechRecognition
 pyaudio
 psutil
+googletrans
+requests
+scipy

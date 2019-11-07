@@ -35,6 +35,9 @@ famousWebsite = {
 }
 
 
+from src.constants import NORMAL_APP, WEB_APP
+
+
 def open_app(command):
     newCommand = command.lower()
     newCommand = newCommand.split()
@@ -63,9 +66,9 @@ def open_app(command):
                     diff = currentDiff
                     isApp = False
     if isApp:
-        return result
+        return [NORMAL_APP, result]
     else:
-        return "www." + result
+        return [WEB_APP, "www." + result]
 
 
 def close_app(command):
@@ -86,4 +89,4 @@ def close_app(command):
 
 
 if __name__ == '__main__':
-    print(open_app('tôi muốn vào chroe quá'))
+    print(open_app('tôi muốn vào chrom quá'))

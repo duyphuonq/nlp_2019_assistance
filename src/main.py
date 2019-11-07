@@ -1,10 +1,14 @@
+# -*- coding: utf-8 -*
 import tkinter as tk
 from tkinter import ttk, Text
 import speech_recognition as sr
 import time
+
 #Speech to text
 rec = sr.Recognizer()
 mic = sr.Microphone()
+
+
 def parse():
     text=""
     with mic as source:
@@ -30,6 +34,7 @@ ass.title("000 Assistance")
 ass.resizable(False, False)
 ass.configure(background="black")
 
+
 ##Functions
 def ask():
     voice.configure(text="Voice", image=red)
@@ -45,11 +50,13 @@ def ask():
     said.grid(column=0, row=1, pady=20, columnspan=5)
     text.configure(state="active")
 
+
 def noVoice():
     voice.configure(state="disabled")
     said.grid_remove()
     entry.grid(column=0, row=1)
     action.grid(column=1, row=1)
+
 
 def typeText():
     entry.grid_remove()
