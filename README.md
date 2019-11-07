@@ -1,6 +1,18 @@
 # nlp_2019_assistance
 <hr>
 
+## Hướng dẫn cài đặt
+Nếu là linux:  
+```
+chmod +x init_linux.sh
+./init_linux.sh
+```  
+  
+Sau đó:
+```
+pip3 install requirements.txt
+```  
+
 ## Yêu cầu: python3.6
 
 ## Các thư viện cần cài đặt:
