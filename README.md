@@ -4,7 +4,7 @@
 ## Yêu cầu: python3.6
 
 ## Các thư viện cần cài đặt:
-<h2 style="color:red;">Numpy, Pandas, Matplotlib, Sklearn, Speech Recognition, Py Audio</h2>
+<h3>Numpy, Pandas, Matplotlib, Sklearn, Speech Recognition, Py Audio</h3>
 
 ## Cài đặt 
 Sử dụng [pip](https://pip.pypa.io/en/stable/) để cài đặt.
@@ -32,9 +32,13 @@ python3 src/main.py
 ```
 ## Cập nhật thứ 5 ngày 7/11/2019:
 tại branch test: 
+
 -thêm chức năng text to speech
+
 -môi trường Linux, chưa cập nhật cho windows
+
 -mudule cài thêm: 
+
   + gtts ```bash pip3 install gTTS```
   + mpeg ```sudo apt install mpeg``` : Dùng để mở file mp3 
   
