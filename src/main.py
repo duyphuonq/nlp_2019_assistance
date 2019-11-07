@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import ttk, Text
 import speech_recognition as sr
 import time
-from src.main.main_execute_controller import execute
+import src.main.main_execute_controller.execute as execute
 
 #Speech to text
 rec = sr.Recognizer()
@@ -70,9 +70,9 @@ def typeText():
 
 ##Attributes
 #icon
-green = tk.PhotoImage(file= r"./../icon/green.png")
-red = tk.PhotoImage(file = r"./../icon/red.png")
-blue = tk.PhotoImage(file = r"./../icon/blue.png")
+green = tk.PhotoImage(file= r"icon/green.png")
+red = tk.PhotoImage(file = r"icon/red.png")
+blue = tk.PhotoImage(file = r"icon/blue.png")
 #Green Button
 text = tk.Button(ass, text="Text", image=green, compound="center", foreground="white", command=noVoice)
 text.grid(column=0, row=0, padx=5)

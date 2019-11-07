@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*
+from . import src
 from trainer import trained_model, read_data
 from src.utils.data_utils import data_in_file
 from src.utils.get_app_name import open_app, close_app
