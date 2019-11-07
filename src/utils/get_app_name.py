@@ -19,6 +19,7 @@ famousWebsite = {
     "wikipedia.com": ["wikipedia", "wiki"],
     "reddit.com": ["reddit.com", "reddit"],
     "youtube.com": ["youtube.com", "youtube"],
+    "github.com": ["github.com", "github", "git"],
     "geeksforgeeks.org": ["geeksforgeeks.org", "geeksforgeeks"],
 
     "xvideos.com": ["xvideos.com", "xvideos"],
