@@ -2,26 +2,10 @@ import tkinter as tk
 from tkinter import ttk, Text
 import speech_recognition as sr
 import time
+import text2speech
 #Speech to text
 rec = sr.Recognizer()
 mic = sr.Microphone()
-def parse():
-    text=""
-    with mic as source:
-        #voice.configure(text="Hmm...", image=blue)
-        rec.adjust_for_ambient_noise(mic)
-        audio = rec.listen(mic)
-    try:
-        #voice.configure(text="Hmm...", image=blue)
-        text = rec.recognize_google(audio, language="vi-VN")
-    except sr.UnknownValueError or sr.RequestError:
-        #voice.configure(text="Voice", image=red)
-        return (False ,"Không nhận dạng được!")
-    if text=="":
-        #voice.configure(text="Voice", image=red)
-        return (False ,"Không nhận dạng được!")
-    #voice.configure(text="Voice", image=red)
-    return (True, text)
 #
 
 ass = tk.Tk() 
@@ -29,21 +13,32 @@ ass.title("000 Assistance")
 #ass.geometry("300x300")
 ass.resizable(False, False)
 ass.configure(background="black")
-
+cnt = 0
 ##Functions
 def ask():
-    voice.configure(text="Voice", image=red)
+    global cnt
+    txt = ""
+    voice.configure(text="Hmm...", image=blue)
     voice.config(relief="sunken")
     text.configure(state="disabled")
     said.grid_remove()
-    hi = parse()
-    print(hi)
-    if hi[0]:
-        said.configure(text="Bạn vừa nói: "+ hi[1])
-    else:
-        said.configure(text="Xin lỗi, "+hi[1])
+    cnt += 1
+    said.configure(text="Ấn nút màu xanh để ghi âm")
     said.grid(column=0, row=1, pady=20, columnspan=5)
-    text.configure(state="active")
+    if cnt == 2:
+        with mic as source:
+            rec.adjust_for_ambient_noise(mic)
+            audio = rec.listen(mic)
+        try:
+            txt = rec.recognize_google(audio, language="vi-VN")
+        except sr.UnknownValueError or sr.RequestError:
+            txt = "Không nhận dạng được!"
+        said.configure(text=txt)
+        voice.configure(text="Voice", image=red)
+        said.grid(column=0, row=1, pady=20, columnspan=5)
+        text2speech.speak(txt)
+        text.configure(state="active")
+        cnt = 0
 
 def noVoice():
     voice.configure(state="disabled")
@@ -61,9 +56,9 @@ def typeText():
 
 ##Attributes
 #icon
-green = tk.PhotoImage(file= r"./../icon/green.png")
-red = tk.PhotoImage(file = r"./../icon/red.png")
-blue = tk.PhotoImage(file = r"./../icon/blue.png")
+green = tk.PhotoImage(file= r"icon/green.png")
+red = tk.PhotoImage(file = r"icon/red.png")
+blue = tk.PhotoImage(file = r"icon/blue.png")
 #Green Button
 text = tk.Button(ass, text="Text", image=green, compound="center", foreground="white", command=noVoice)
 text.grid(column=0, row=0, padx=5)
