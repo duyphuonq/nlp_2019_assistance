@@ -51,7 +51,8 @@ def typeText():
     action.grid_remove()
     voice.configure(state="active")
     if value.get():
-        said.configure(text="Bạn vừa nhập: "+value.get())
+        said.configure(text=value.get())
+        text2speech.speak(value.get())
         said.grid(column=0, row=1, pady=20, columnspan=5)
 
 ##Attributes
