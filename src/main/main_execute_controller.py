@@ -38,7 +38,7 @@ def execute(sentence):
     return ""
 
 
-print(execute("tôi muốn dùng facebook"))
+# print(execute("tôi muốn dùng facebook"))
 # print(execute("terminat đâu rồi"))
 # print(execute("tôi không muốn dùng termina"))
 # print(execute("chrome ơi mở ra"))
@@ -46,3 +46,4 @@ print(execute("tôi muốn dùng facebook"))
 # print(execute("hôm nay trời đẹp nhỉ"))
 # print(execute("giá cặp sách"))
 # print(execute("github đâu nhỉ"))
+print(execute("ai là hiếu đẹp trai"))
