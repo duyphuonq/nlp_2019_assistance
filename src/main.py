@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import ttk, Text
 import speech_recognition as sr
 import time
-import src.main.main_execute_controller.execute as execute
+from src.main import main_execute_controller
 
 #Speech to text
 rec = sr.Recognizer()
