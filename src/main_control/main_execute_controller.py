@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*
-from trainer import trained_model, read_data
+from src.main_control.trainer import trained_model, read_data
 from src.utils.data_utils import data_in_file
 from src.utils.get_app_name import open_app, close_app
 from src.constants import ROOT_DIR, path_new_data, CHAT_ACTION, CLOSE_ACTION, OPEN_ACTION, SEARCH_ACTION, NORMAL_APP, WEB_APP
