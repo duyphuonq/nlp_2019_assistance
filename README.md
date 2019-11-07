@@ -4,13 +4,13 @@
 ## Yêu cầu: python3.6
 
 ## Các thư viện cần cài đặt:
-<h2 style="color:red;">Numpy, Pandas, Matplotlib, Sklearn, Speech Recognition, Py Audio</h2>
+<h3>Numpy, Pandas, Matplotlib, Sklearn, Speech Recognition, Py Audio</h3>
 
 ## Cài đặt 
 Sử dụng [pip](https://pip.pypa.io/en/stable/) để cài đặt.
 
 ```bash
-pip install numpy pandas matplotlib sklearn speech_recognition 
+pip install numpy pandas matplotlib sklearn SpeechRecognition 
 ```
 hoặc pip3 nếu có cả 2 phiên bản python trong máy tính.
 
@@ -24,8 +24,21 @@ pip install pyaudio
 ```bash
 sudo apt-get install portaudio19-dev python-all-dev python3-all-dev && sudo pip install pyaudio
 ```
+Nếu không cài được pyaudio thì làm theo hướng dẫn trên google để cài đặt
 ## Test
+Tại thư mục gốc project
 ```bash
 python3 src/main.py
 ```
+## Cập nhật thứ 5 ngày 7/11/2019:
+tại branch test: 
 
+-thêm chức năng text to speech
+
+-môi trường Linux, chưa cập nhật cho windows
+
+-mudule cài thêm: 
+
+  + gtts ```bash pip3 install gTTS```
+  + mpeg ```sudo apt install mpeg``` : Dùng để mở file mp3 
+  
