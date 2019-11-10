@@ -9,7 +9,6 @@ import os
 import threading
 
 #------------------------------------------------------------------------------#
-
 #Speech to text
 rec = sr.Recognizer()
 mic = sr.Microphone()
