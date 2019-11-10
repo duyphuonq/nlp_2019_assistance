@@ -29,7 +29,7 @@ def execute(sentence):
         else:
             print("address")
             url.open_address(name)
-        return "Tôi đã mở {} cho bạn nè!".format(name)
+        return "Tôi đã mở {} cho bạn nè!".format(name[4:-4])
     elif result == CLOSE_ACTION:
         print("close app action")
         name = close_app(sentence)
@@ -46,4 +46,4 @@ def execute(sentence):
 # print(execute("hôm nay trời đẹp nhỉ"))
 # print(execute("giá cặp sách"))
 # print(execute("github đâu nhỉ"))
-print(execute("ai là hiếu đẹp trai"))
+#print(execute("ai là hiếu đẹp trai"))

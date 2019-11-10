@@ -11,7 +11,7 @@ from src.utils.data_utils import get_dict_size
 # import os
 # os.system('pwd')
 # exit(0)
-train_data_fn = ROOT_DIR + path_data + 'data_train_bka.txt'
+train_data_fn = ROOT_DIR + path_data + 'data_train.txt'
 train_label_fn = ROOT_DIR + path_data + 'label_train.txt'
 
 
