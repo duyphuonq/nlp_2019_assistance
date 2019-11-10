@@ -1,4 +1,5 @@
-# nlp_2019_assistance
+# Bài tập lớn môn Xử Lý Ngôn Ngữ Tự Nhiên 
+# Chủ đề: Virtual Assistance 
 <hr>
 
 ## Hướng dẫn cài đặt
@@ -21,13 +22,14 @@ python3 src/main.py
 ## Cập nhật thứ 5 ngày 7/11/2019:
 tại branch test: 
 
--thêm chức năng text to speech (Giọng nói chị G
+- Thêm chức năng text to speech (Giọng nói chị G
 
--môi trường Linux, chưa cập nhật cho windows
+- Môi trường Linux, chưa cập nhật cho windows
 
--mudule cài thêm: 
+- Module pip cài thêm: 
 
   + gtts ```bash pip3 install gTTS```
+- Hệ thống cài thêm:
   + mpeg ```sudo apt install mpeg``` : Dùng để mở file mp3 
   
 ## Cập nhật chủ nhật ngày 10/11/2019:
