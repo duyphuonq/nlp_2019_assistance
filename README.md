@@ -39,6 +39,6 @@ tại branch master:
 - Thêm âm thanh báo hiệu lúc bắt đầu ghi âm và kết thúc ghi âm
 - Thêm hoạt ảnh con bò ngộ nghĩnh
 - module cài thêm:
-  + xcowsay ```bash sudo apt install xcowsay```
+  + xcowsay ```sudo apt install xcowsay```
 - Lưu ý mới chỉ hoạt động trên Linux, chưa bổ sung cho windows 
   
