@@ -8,3 +8,4 @@ psutil
 googletrans
 requests
 scipy
+gtts
