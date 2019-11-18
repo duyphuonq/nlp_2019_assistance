@@ -6,6 +6,7 @@ from sklearn.naive_bayes import MultinomialNB, BernoulliNB
 from sklearn.metrics import accuracy_score
 from src.constants import path_data, ROOT_DIR
 from src.utils.data_utils import get_dict_size
+from sklearn.model_selection import train_test_split
 
 # data path and file name
 # import os
@@ -40,15 +41,25 @@ def read_data(data_fn, label_fn=None):
     return data
 
 
-def trained_model():
-    (train_data, train_label)  = read_data(train_data_fn, train_label_fn)
-    # (test_data, test_label)  = read_data(test_data_fn, test_label_fn)
-    clf = MultinomialNB()
-    clf.fit(train_data, train_label)
+def trained_model(x, y):
+    clf = BernoulliNB()
+    clf.fit(x, y)
     print("train done")
     return clf
-    #y_pred = clf.predict(test_data)
-    #print('Training size = %d, accuracy = %.2f%%' % (train_data.shape[0],accuracy_score(test_label, y_pred)*100))
 
 
-	
+def test_accuracy():
+    mean_result = 0
+    limit = 100
+    for i in range(limit):
+        (train_data, train_label) = read_data(train_data_fn, train_label_fn)
+        x, x_test, y, y_test = train_test_split(train_data, train_label, test_size=0.1, train_size=0.9)
+        clf = trained_model(x, y)
+        y_pred = clf.predict(x_test)
+        local_result = accuracy_score(y_test, y_pred) * 100
+        print("Times: {} ({}%)".format(i + 1, local_result))
+        mean_result += local_result
+    print('Average Accuracy = {:.2f}%'.format(mean_result / limit))
+
+
+test_accuracy()
