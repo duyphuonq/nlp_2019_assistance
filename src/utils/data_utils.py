@@ -69,7 +69,7 @@ if __name__ == '__main__':
     print(get_dict_size())
     print(get_count("mở"))
     print(get_index("mở"))
-    print(data_in_file("tui muốn mở pinta"))
+    # print(data_in_file("tui muốn mở pinta"))
     # exit(0)
     with open(path + 'dataCount.csv', mode='r', encoding="utf8") as csv_file:
         with open(path + 'data.csv', mode='r', encoding="utf8", newline='\n') as raw_file:
@@ -81,30 +81,6 @@ if __name__ == '__main__':
             csv_raw_reader = csv.DictReader(raw_file)
             for row in csv_raw_reader:
                 arr_sentences.append([row["sentence"], row["label"]])
-            with open(path + 'data_test.txt', mode='w', encoding="utf8") as write_file:
-                lim = 20
-                cnter = [0] * 4
-                for i in range(4):
-                    if cnter[i] < lim:
-                        cnt = 0
-                        for row in arr_sentences:
-                            cnt += 1
-                            if int(row[1]) == i:
-                                target = row[0]
-                                cnter[i] += 1
-                                #arr_sentences.remove(row)
-                                for word in target.split():
-                                    for row_dict in arr:
-                                        if word == row_dict[0]:
-                                            file_writing(write_file, [cnt, int(row_dict[2]) + 1, row_dict[1]])
-                                            write_file.write(str(cnt))
-                                            write_file.write(" ")
-                                            write_file.write(row_dict[2])
-                                            write_file.write(" ")
-                                            write_file.write(row_dict[1])
-                                            write_file.write("\n")
-                                            break
-                                break
             with open(path + 'data_train.txt', mode='w', encoding="utf8") as write_file:
                 cnt = 0
                 for row in arr_sentences:
@@ -113,6 +89,7 @@ if __name__ == '__main__':
                     for word in target.split():
                         for row_dict in arr:
                             if word == row_dict[0]:
-                                file_writing(write_file, [cnt, int(row_dict[2]) + 1, row_dict[1]])
+                                # file_writing(write_file, [cnt, int(row_dict[2]) + 1, row_dict[1]])
+                                file_writing(write_file, [cnt, int(row_dict[2]) + 1, target.count(word)])
                                 break
                     
