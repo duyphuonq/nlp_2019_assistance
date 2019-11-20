@@ -30,8 +30,11 @@ famousWebsite = {
     "google.com": ["google.com", "google"],
     "linkedin.com": ["linkedin.com", "linkedin"],
     "netflix.com": ["netflix.com", "netflix"],
-    "phimmoi.com": ["phimmoi.com", "phimmoi", "phim"]
+    "phimmoi.net": ["phimmoi.net", "phimmoi", "phim"]
 }
+
+
+from src.constants import NORMAL_APP, WEB_APP
 
 
 def open_app(command):
@@ -62,9 +65,9 @@ def open_app(command):
                     diff = currentDiff
                     isApp = False
     if isApp:
-        return result
+        return [NORMAL_APP, result]
     else:
-        return "www." + result
+        return [WEB_APP, "www." + result]
 
 
 def close_app(command):

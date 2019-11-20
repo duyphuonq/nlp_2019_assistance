@@ -71,10 +71,16 @@ models_name = {
 }
 
 
-def trained_model(name, x, y):
+def train_model(name, x, y):
     clf = models[name]
     clf.fit(x, y)
     # print("train done")
+    return clf
+
+
+def trained_model():
+    (train_data, train_label) = read_data(train_data_fn, train_label_fn)
+    clf = train_model("logistic-regression", train_data, train_label)
     return clf
 
 
@@ -90,7 +96,7 @@ def test_accuracy(name):
         # x = train_data
         # y = train_label
         x, x_test, y, y_test = train_test_split(train_data, train_label, test_size=0.1, train_size=0.9)
-        clf = trained_model(name, x, y)
+        clf = train_model(name, x, y)
         y_pred = clf.predict(x_test)
         local_result = accuracy_score(y_test, y_pred) * 100
         # print("Times: {} ({}%)".format(i + 1, local_result))
@@ -111,13 +117,13 @@ def test_accuracy(name):
     )
 
 
-test_accuracy("naive-bayes-0")
-test_accuracy("naive-bayes-1")
-test_accuracy("svm")
+# test_accuracy("naive-bayes-0")
+# test_accuracy("naive-bayes-1")
+# test_accuracy("svm")
 # test_accuracy("knn")
-test_accuracy("svc")
-test_accuracy("logistic-regression")
-test_accuracy("random-forest")
+# test_accuracy("svc")
+# test_accuracy("logistic-regression")
+# test_accuracy("random-forest")
 
 # Average results after 100 iterations of Bernoulli NB:
 # Average Accuracy: 90.74%.
