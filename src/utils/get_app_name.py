@@ -19,24 +19,19 @@ famousWebsite = {
     "wikipedia.com": ["wikipedia", "wiki"],
     "reddit.com": ["reddit.com", "reddit"],
     "youtube.com": ["youtube.com", "youtube"],
-    "github.com": ["github.com", "github", "git"],
     "geeksforgeeks.org": ["geeksforgeeks.org", "geeksforgeeks"],
 
     "xvideos.com": ["xvideos.com", "xvideos"],
-    "pornhub.com": ["pornhub.com", "pornhub"],
     "xnxx.com": ["xnxx.com", "xnxx"],
     "xhamster.com": ["xhamster.com", "xhamster"],
 
-    "yahoo.com": ["yahoo.com", "yahoo.com"],
+    "yahoo.com": ["yahoo.com", "yahoo"],
     "amazon.com": ["amazon.com", "amazon"],
     "google.com": ["google.com", "google"],
     "linkedin.com": ["linkedin.com", "linkedin"],
     "netflix.com": ["netflix.com", "netflix"],
-    "phimmoi.com": ["phimmoi.com", "phimmoi"]
+    "phimmoi.com": ["phimmoi.com", "phimmoi", "phim"]
 }
-
-
-from src.constants import NORMAL_APP, WEB_APP
 
 
 def open_app(command):
@@ -67,9 +62,9 @@ def open_app(command):
                     diff = currentDiff
                     isApp = False
     if isApp:
-        return [NORMAL_APP, result]
+        return result
     else:
-        return [WEB_APP, "www." + result]
+        return "www." + result
 
 
 def close_app(command):
@@ -90,4 +85,7 @@ def close_app(command):
 
 
 if __name__ == '__main__':
-    print(open_app('tôi muốn vào chrom quá'))
+    print(open_app('tôi muốn vào pornhub quá'))
+    for i in famousWebsite:
+        for j in famousWebsite[i]:
+            print("\"" + j + "\",")
