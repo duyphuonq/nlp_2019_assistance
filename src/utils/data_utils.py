@@ -2,7 +2,7 @@
 import csv
 import random
 import time
-from src.constants import ROOT_DIR, path_data, path_new_data
+from src.constants import ROOT_DIR, path_data, path_new_data, data_name
 
 path = ROOT_DIR + path_data
 #os.system("pwd")
@@ -72,7 +72,7 @@ if __name__ == '__main__':
     # print(data_in_file("tui muốn mở pinta"))
     # exit(0)
     with open(path + 'dataCount.csv', mode='r', encoding="utf8") as csv_file:
-        with open(path + 'data.csv', mode='r', encoding="utf8", newline='\n') as raw_file:
+        with open(path + data_name, mode='r', encoding="utf8", newline='\n') as raw_file:
             csv_store_reader = csv.DictReader(csv_file)
             arr = []
             for row_dict in csv_store_reader:

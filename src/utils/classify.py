@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*
 import csv
-from src.constants import ROOT_DIR, path_data, path_new_data
+from src.constants import ROOT_DIR, path_data, path_new_data, data_name
 
 path = ROOT_DIR + path_data
 
@@ -11,7 +11,7 @@ myDict = {
 myArr = []
 
 if __name__ == '__main__':
-    with open(path + 'bigger_data.csv', mode='r', encoding="utf8") as csv_file:
+    with open(path + data_name, mode='r', encoding="utf8") as csv_file:
         with open(path + 'dataCount.csv', mode='w', encoding="utf8", newline='\n') as write_file:
             csv_reader = csv.DictReader(csv_file)
             fieldnames = ['word', 'count', "index"]

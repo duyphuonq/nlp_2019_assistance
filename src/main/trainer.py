@@ -21,6 +21,8 @@ from sklearn.ensemble import RandomForestClassifier
 # exit(0)
 train_data_fn = ROOT_DIR + path_data + 'data_train.txt'
 train_label_fn = ROOT_DIR + path_data + 'label_train.txt'
+test_data_fn = ROOT_DIR + path_data + 'data_test.txt'
+test_label_fn = ROOT_DIR + path_data + 'label_test.txt'
 
 
 def read_data(data_fn, label_fn=None):
@@ -50,7 +52,7 @@ def read_data(data_fn, label_fn=None):
 
 models = {
     "svm": SGDClassifier(tol = 1e-3, max_iter = 100),
-    "naive-bayes-0": BernoulliNB(),
+    "naive-bayes-0": BernoulliNB(binarize = .5),
     "naive-bayes-1": MultinomialNB(),
     "knn": KNeighborsClassifier(n_neighbors=1),
     "svc": LinearSVC(),
@@ -84,6 +86,9 @@ def test_accuracy(name):
         start_time = time.time()
 
         (train_data, train_label) = read_data(train_data_fn, train_label_fn)
+        # (x_test, y_test) = read_data(test_data_fn, test_label_fn)
+        # x = train_data
+        # y = train_label
         x, x_test, y, y_test = train_test_split(train_data, train_label, test_size=0.1, train_size=0.9)
         clf = trained_model(name, x, y)
         y_pred = clf.predict(x_test)
@@ -109,7 +114,7 @@ def test_accuracy(name):
 test_accuracy("naive-bayes-0")
 test_accuracy("naive-bayes-1")
 test_accuracy("svm")
-test_accuracy("knn")
+# test_accuracy("knn")
 test_accuracy("svc")
 test_accuracy("logistic-regression")
 test_accuracy("random-forest")
