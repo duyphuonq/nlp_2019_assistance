@@ -53,9 +53,9 @@ objects = [
 ]
 
 sentences = [
-    ["Tôi muốn tắt . ngay", 0],
-    ["Đóng . ngay lập tức", 3],
-    ["Tôi muốn tắt . ngay", 0],
+    ["tôi muốn tắt . ngay", 0],
+    ["đóng . ngay lập tức", 3],
+    ["tôi muốn tắt . ngay", 0],
     ["tôi rất muốn mở . ngay bây giờ", 0],
     ["làm ơn bật . cho tôi", 0],
     ["mở .", 0],
