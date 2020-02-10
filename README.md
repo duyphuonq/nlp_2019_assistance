@@ -1,5 +1,5 @@
 # Bài tập lớn môn Xử Lý Ngôn Ngữ Tự Nhiên 
-# Chủ đề: Virtual Assistance 
+# Chủ đề: Virtual Assistant
 <hr>
 
 ## Hướng dẫn cài đặt
